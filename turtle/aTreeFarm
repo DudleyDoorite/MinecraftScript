@@ -472,7 +472,9 @@ if blnAutoSetup then
     strSimpleCheck="Fill in slots 3-5 and press enter:"
   else
     strSimpleCheck="Press enter to start:"
-  end
+  end while a > 0 do
+        turtle.down()
+        
 else  
   strSimpleCheck="Press enter to start:"
 end

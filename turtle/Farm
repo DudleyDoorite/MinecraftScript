@@ -1,0 +1,14 @@
+-- Farm.lua
+-- Farming turtle to harvest crops
+
+
+local height = 9
+local width = 9
+
+
+
+
+
+function main ()
+    print(turtle.inspectDown())
+end
